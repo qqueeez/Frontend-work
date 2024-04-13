@@ -16,3 +16,12 @@
 .tech-stack-section ul {
   display: flex;
 }
+
+.projects-section .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-section .inner article {
+  width: 30%;
+}
