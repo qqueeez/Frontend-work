@@ -1,0 +1,46 @@
+.main-content {
+    width: 778px;
+}
+
+.about-me h2 {
+    margin-top: 122px;
+}
+
+h2 {
+    margin-top: 64px;
+    margin-bottom: 38px;
+}
+
+.work-experience h3 {
+    font-size: 20px;
+}
+
+.work-experience p {
+    font-size: 12px;
+}
+
+.work-experience div, .education div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-name {
+    margin-top: 38px;
+}
+
+.organization-name {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.dates-of-study {
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+    margin-bottom: 23px;
+}
+
+.footer {
+    margin-top: 146px;
+}
