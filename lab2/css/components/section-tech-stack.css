@@ -1,8 +1,10 @@
 .tech-stack-section {
     text-align: center;
+    margin-top: 200px;
+    margin-bottom: 146px;
 }
 
-.tech-stack-section .title {
+.tech-stack-section h2 {
   margin-bottom: 49px;
 }
 
@@ -11,8 +13,12 @@
     margin-bottom: 146px;
 }
 
-.tech-stack-section ul {
+.tech-stack-list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 146px;
+    align-items: center;
+}
+
+.tech-stack-list:not(:last-child) {
+    margin-bottom: 90px;
 }
