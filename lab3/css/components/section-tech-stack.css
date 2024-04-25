@@ -1,0 +1,24 @@
+.tech-stack-section {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 146px;
+}
+
+.tech-stack-section h2 {
+  margin-bottom: 49px;
+}
+
+.tech-stack-section p {
+    font-size: 32px;
+    margin-bottom: 146px;
+}
+
+.tech-stack-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tech-stack-list:not(:last-child) {
+    margin-bottom: 90px;
+}

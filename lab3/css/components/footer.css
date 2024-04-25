@@ -1,0 +1,33 @@
+.info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 61px;
+}
+
+.num-and-email a {
+    margin-right: 33px;
+}
+
+.num-and-email a:last-child {
+    margin-right: 49;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer-navigation li:not(:last-child) {
+    margin-right: 52px;
+}
