@@ -89,3 +89,13 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .nav-btn {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+}

@@ -1,46 +1,65 @@
 .main-content {
-    width: 778px;
+  width: 62%;
 }
 
 .about-me h2 {
-    margin-top: 122px;
+  margin-top: 122px;
 }
 
 h2 {
-    margin-top: 64px;
-    margin-bottom: 38px;
+  margin-top: 64px;
+  margin-bottom: 38px;
 }
 
 .work-experience h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .work-experience p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-.work-experience div, .education div {
-    display: flex;
-    justify-content: space-between;
+.work-experience div,
+.education div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .job-name {
-    margin-top: 38px;
+  margin-top: 38px;
 }
 
 .organization-name {
-    margin-top: 12px;
-    margin-bottom: 24px;
+  margin-top: 12px;
+  margin-bottom: 24px;
 }
 
 .dates-of-study {
-    font-size: 12px;
-    display: flex;
-    justify-content: end;
-    margin-top: 12px;
-    margin-bottom: 23px;
+  font-size: 12px;
+  display: flex;
+  justify-content: end;
+  margin-top: 12px;
+  margin-bottom: 23px;
 }
 
 .footer {
-    margin-top: 146px;
+  margin-top: 146px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .main-content {
+      width: 100%;
+    }
+    
+  }
+  
+  @media screen and (max-width: 480px) {
+    .job-name h3,
+    .about-me p,
+    .education div p,
+    .footer a {
+      font-size: 15px;
+    }
+  
+  }

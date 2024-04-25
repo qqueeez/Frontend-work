@@ -1,4 +1,4 @@
-.info {
+.footer-info {
     display: flex;
     justify-content: center;
     margin-bottom: 61px;
@@ -15,6 +15,7 @@
 .footer-icons {
     display: flex;
     align-items: center;
+
 }
 
 .footer-icons li:not(:last-child) {
@@ -31,3 +32,51 @@
 .footer-navigation li:not(:last-child) {
     margin-right: 52px;
 }
+
+@media screen and (max-width: 768px) {
+  
+    .footer-navigation {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .footer-navigation li,
+    .footer-navigation li:not(:last-child) {
+      margin-right: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    .footer-info {
+      display: block;
+    }
+  
+    .num-and-email {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .num-and-email a,
+    .num-and-email a:last-child {
+      margin-right: 0px;
+    }
+  
+    .footer-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .footer-navigation {
+      display: block;
+      text-align: center;
+    }
+  
+    .footer-navigation li,
+    .footer-navigation li:not(:last-child) {
+      margin-right: 0px;
+    }
+  }

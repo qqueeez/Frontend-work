@@ -1,7 +1,8 @@
 .tech-stack-section {
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 146px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 146px;
+  
 }
 
 .tech-stack-section h2 {
@@ -9,16 +10,35 @@
 }
 
 .tech-stack-section p {
-    font-size: 32px;
-    margin-bottom: 146px;
+  font-size: 32px;
+  margin-bottom: 146px;
 }
 
 .tech-stack-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
 }
 
-.tech-stack-list:not(:last-child) {
-    margin-bottom: 90px;
+.tech-stack-list li {
+    margin-bottom: 85px;
+}
+
+@media screen and (max-width: 1024px) {
+    .tech-stack-list {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .tech-stack-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tech-stack-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
