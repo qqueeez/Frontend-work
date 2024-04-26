@@ -9,7 +9,7 @@
   margin-bottom: 49px;
 }
 
-.tech-stack-section p {
+.subtitle {
   font-size: 32px;
   margin-bottom: 146px;
 }
@@ -40,5 +40,9 @@
 @media screen and (max-width: 480px) {
     .tech-stack-list {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .subtitle {
+      font-size: 24px;
     }
 }
